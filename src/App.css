@@ -19,14 +19,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--font-family);
 }
 
-/* Body */
 body {
   background-color: var(--secondary-color);
-  font-size: var(--primary-font-size);
-  color: #333; /* Default Text Color */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+}
+
+button {
+  cursor: pointer;
 }
 
 /* Headings */
@@ -48,8 +51,8 @@ h6 {
 
 /* Links */
 a {
-  color: var(--primary-color);
   text-decoration: none;
+  color: inherit;
 }
 
 a:hover {
