@@ -1,0 +1,57 @@
+/* Head CSS File for Global Styling */
+
+/* Primary and Secondary Colors */
+:root {
+  --primary-color: #b52b6b; /* Deep Pinkish-Purple */
+  --secondary-color: #f9f7f8; /* Soft White/Gray Background */
+
+  /* Font Sizes */
+  --primary-font-size: 16px; /* Default Body Text */
+  --primary-heading-font-size: 20px; /* Primary Headings */
+  --secondary-heading-font-size: 14px; /* Smaller Headings or Descriptions */
+
+  /* Font Family */
+  --font-family: "Poppins", sans-serif; /* Modern Sans-Serif Font */
+}
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+/* Body */
+body {
+  background-color: var(--secondary-color);
+  font-size: var(--primary-font-size);
+  color: #333; /* Default Text Color */
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-size: var(--primary-heading-font-size);
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+h4,
+h5,
+h6 {
+  font-size: var(--secondary-heading-font-size);
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+/* Links */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
